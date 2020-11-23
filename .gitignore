@@ -1,0 +1,52 @@
+# Public and storage
+/public/hot
+/public/public
+/public/admin
+/public/app
+/public/storage
+/storage/*.key
+
+# Vendors and lock files
+/vendor
+node_modules
+composer.lock
+package-lock.json
+cghooks.lock
+
+# Environment settings
+.env
+.env.backup
+Homestead.json
+Homestead.yaml
+
+# Backend tests and helpers
+.env.testing
+.phpunit.result.cache
+.phpstorm.meta.php
+/tests/coverage/
+_ide_helper.php
+_ide_helper_models.php
+
+# IDEs
+.idea
+.vscode
+
+# Node temp and vendor folders
+.gulp
+
+# Dist & tests
+test
+dist
+
+# Logs:
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Special
+Thumbs.db
+Desktop.ini
+.DS_Store*
+ehthumbs.db
+Icon?
